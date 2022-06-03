@@ -1,0 +1,33 @@
+Reading Questions:
+
+1) The let keyword is used to declare constants, while var is used to declare variables.
+
+2) An optional is a type of storage in Swift that can either contain nil or a value. 
+
+3) Optional chaining is a process for querying and calling mmethods, properties, and subscripts on an optional that might be nil. 
+Optional binding is a method for unwrapping optionals. It is used to check whether the optional contains a value or nil. If the optional has a value, 
+you can use optional binding to unwrap it and put it in a temporary constant or variable.
+
+4) Optional binding is one safe way to safely unwrap an optional by checking if the optional contains a value or not before unwrapping. Forced unwrapping, 
+which is achieved by placing a "!" after an optional, is unsafe because it produces a runtime error when the optional is nil. Optional chaining is 
+another safe alternative to forced unwrapping. It is specified using a "?" after the optional value you are working with. Unlike forced unwrapping, 
+optional chaining fails gracefully when the optional is nil.
+
+5) A closure is a self-contained block of functionality that can be passed around and used in your code. They can capture and store references to any 
+constants and variables from the context in which they're defined; this is called "closing over" those constants and variables.
+
+6) Structures and classes are flexible constructs that work as building blocks for your code. Both can define properties to store values and define methods 
+to provide functionality. Classes have additional capabilities compared to structures. For one, inheritance enables one class to inherit the 
+characteristics of another. Additonally, reference counting allows more than one reference to a class instance.
+
+7) The syntax "??" denotes nil-coalescing. It is used to validate an optional in a single line. It works by either wrapping an optional if it has a value 
+or providing a default if the optional is found empty.
+
+8) A tuple is a group of values, in which each value inside the tuple can be a different data type.
+
+9) Any can represent an instance of any type at all, including function types. AnyObject can represent an instance of any class type.
+
+10) A protocol defines a blueprint of methods, properties, and other requirements that suit a particular task or piece of functionality. Protocols can 
+then be adopted by a class, structure, or enumeration to provide an actual implementation of those requirements.
+
+11) Delegation is a design pattern that enables a class or structure to delegate some of its responsibilities to an instance of another type.
