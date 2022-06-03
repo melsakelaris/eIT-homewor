@@ -1,2 +1,2 @@
-# eIT-homewor
+# eIT-homework
 EnhanceIT homework and assignments
